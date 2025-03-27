@@ -88,11 +88,6 @@ The repository contains the following files, which collectively form the backbon
 
 text
 
-Collapse
-
-Wrap
-
-Copy
 Credit-Card-Fraud-Detection/
 ├── balanced.csv                # Dataset balanced using a technique like SMOTE
 ├── code.ipynb                  # Main Jupyter notebook for data preprocessing, model training, and evaluation
@@ -101,6 +96,7 @@ Credit-Card-Fraud-Detection/
 ├── nearmiss.csv                # Dataset after applying NearMiss undersampling
 ├── README.md                   # Project documentation (this file)
 └── test_dataset.json           # Test dataset for model evaluation
+
 File Descriptions
 balanced.csv: This is likely the dataset after addressing class imbalance, possibly using a technique like SMOTE (Synthetic Minority Over-sampling Technique) to oversample the minority class (fraudulent transactions).
 code.ipynb: The primary Jupyter notebook containing the core workflow of the project. It includes steps such as data preprocessing, model training (e.g., using a Random Forest Classifier), and performance evaluation.
